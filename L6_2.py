@@ -3,8 +3,7 @@
 import csv
 from random import randint
 
-CH = [chr(randint(65,127)) for each \
-    in range(10)]                       #random characters to write
+CH = [chr(randint(65,127)) for each in range(10)]                       #random characters to write
 
 #set up file access for writing a csv file
 FILENAME ="data.csv"                    #file to write in current directory
