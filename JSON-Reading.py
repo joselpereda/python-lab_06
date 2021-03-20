@@ -14,4 +14,3 @@ FILENAME = 'data.json'
 FILE_MODE = 'w'
 with open(FILENAME, FILE_MODE) as json_file:
     json.dump(data,json_file)
-
